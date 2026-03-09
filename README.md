@@ -407,10 +407,6 @@ print(li)
 print(len(li))
 
 
-
-
-
-
 #To insert a new list item, without replacing any of the existing values, we can use the insert() method.
 li=[1,3,5]
 li.insert(2, "kiwi")
@@ -543,14 +539,7 @@ print(newlist)
  
 
 
-
-
-
-
-
-
-
-ALL TUPLES methods in python
+ #ALL TUPLES methods in python
 #tuple is ordered ,unchangeable ,allow duplicate values 
 
 
@@ -568,18 +557,14 @@ print(b[4])
 fn=tuple(("apple","banana","cherry")) # note --> the tupleround-brackets
 print(fn)
 
-
 # the tuple() constructuctor
 fn=tuple(("apple","banana","cherry")) # note --> the tupleround-brackets
 print(fn)
-
 
 #3. del() method 
 fn1=tuple(("apple","banana","cherry"))
 del fn1
 print(fn1)
-
-
 
 #unpacking a tuple:
 #---> assign values to it. this it is called "unpacking ":
